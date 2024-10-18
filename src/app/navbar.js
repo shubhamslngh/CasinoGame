@@ -1,0 +1,72 @@
+import Image from 'next/image';
+
+export default function Example() {
+    return (
+        <div className="flex mx-auto justify-between items-center  p-1">
+
+            <div className='flex gap-[3rem] '>
+                
+                <button >
+                    <Image
+                        src="/profile.svg"
+                        alt="Menu Icon"
+                        layout="intrinsic" // Or use layout="fixed"
+                        width={91}
+                        height={91}
+                        className="object-contain"
+                    />
+                </button>
+
+                {/* Score Button with Text Overlay */}
+                    <button>
+                        <Image
+                            src="/score.svg"
+                            alt="Score Icon"
+                            layout="intrinsic"
+                            width={180}
+                            height={30}
+                            className="object-contain"
+                        />
+                    </button>
+
+                  
+            </div>
+
+            {/* Center - Logo */}
+            <div className="flex-2 relative mx-auto justify-center items-center p-2">
+                <Image
+                    src="/logo.svg"
+                    alt="Logo"
+                    layout="fixed"
+                    width={515}
+                    height={180}
+                    className="object-contain"
+                />
+            </div>
+
+            {/* Menu SVG */}
+            <div className='flex-end gap-[2rem] px-[2rem]'>
+                <button >
+                    <Image
+                        src="/fullscreen.svg"
+                        alt="Menu Icon"
+                        layout="intrinsic"
+                        width={48}
+                        height={48}
+                        className="object-contain"
+                    />
+                </button>
+                <button >
+                     <Image
+                        src="/menu.svg"
+                        alt="Menu Icon"
+                        layout="intrinsic"
+                        width={48}
+                        height={48}
+                        className="object-contain"
+                    />
+                </button>
+            </div>
+        </div>
+    );
+}
