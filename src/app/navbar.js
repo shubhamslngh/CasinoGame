@@ -45,7 +45,7 @@ export default function Example() {
             <div className='flex-end gap-[2rem] px-[2rem] space-x-0 md:space-x-12 xs:space-x-0'>
                 <button >
                     <Image
-                        src="/fullscreen.svg"
+                        src="/Fullscreen.svg"
                         alt="fullscreen Icon"
                         layout="intrinsic"
                         width={48}
