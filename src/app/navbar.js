@@ -46,7 +46,7 @@ export default function Example() {
                 <button >
                     <Image
                         src="/fullscreen.svg"
-                        alt="Menu Icon"
+                        alt="fullscreen Icon"
                         layout="intrinsic"
                         width={48}
                         height={48}

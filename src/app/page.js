@@ -15,12 +15,12 @@ export default function Home() {
       </div>
 
       {/* First Carousel */}
-      <div className="row-span-2 w-full h-100 justify-center sm:h-[50] sm:w-[50] py-2 overflow-y-hidden overflow-x-hidden">
+      <div className="row-span-2 w-full  h-100 justify-center sm:h-[50] sm:w-[50] py-2 overflow-y-hidden overflow-x-hidden">
         <GameCarousel />
       </div>
 
       {/* Second Carousel */}
-      <div className="row-span-2 w-full h-100 justify-center sm:h-[50] sm:w-[50] py-2 overflow-y-hidden overflow-x-hidden">
+      <div className="row-span-2 w-full  h-100 justify-center sm:h-[50] sm:w-[50] py-2 overflow-y-hidden overflow-x-hidden">
         <GameCarousel />
       </div>
     </div>
