@@ -37,7 +37,7 @@ export default function Sidebar() {
                             width={71}
                             height={98}
                             className={`rounded-[4rem] ${activeButton === 'ALL'
-                                    ? 'bg-gradient-to-r from-yellow-500 to-orange-500'
+                                    ? 'bg-gradient-to-r from-yellow-500 to-orange-500 '
                                     : ''
                                 }`}
                         />

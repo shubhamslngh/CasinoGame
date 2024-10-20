@@ -2,8 +2,8 @@ import Image from 'next/image';
 
 export default function Example() {
     return (
-        <div className="flex mx-auto justify-between items-center  p-1">
-                <div className='flex-end '>
+        <div className="flex mx-auto justify-between items-center">
+                <div className='flex-end space-x-0 md:space-x-12 xs:space-x-0 '>
                 <button >
                     <Image
                         src="/profile.svg"
@@ -42,7 +42,7 @@ export default function Example() {
             </div>
 
             {/* Menu SVG */}
-            <div className='flex-end gap-[2rem] px-[2rem]'>
+            <div className='flex-end gap-[2rem] px-[2rem] space-x-0 md:space-x-12 xs:space-x-0'>
                 <button >
                     <Image
                         src="/fullscreen.svg"
@@ -50,7 +50,7 @@ export default function Example() {
                         layout="intrinsic"
                         width={48}
                         height={48}
-                        className="px-1 object-contain"
+                        className="object-contain"
                     />
                 </button>
                 <button >
@@ -60,7 +60,7 @@ export default function Example() {
                         layout="intrinsic"
                         width={48}
                         height={48}
-                        className="px-1 object-contain"
+                        className="object-contain"
                     />
                 </button>
             </div>

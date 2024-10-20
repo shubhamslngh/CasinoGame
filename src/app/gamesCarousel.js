@@ -47,8 +47,8 @@ const GameCarousel = () => {
                         <Image
                             src={game.src}
                             alt={game.alt}
-                            width={341}
-                            height={500}
+                            width={241}
+                            height={250}
                             layout="responsive"
                             className="rounded-lg"
                         />
