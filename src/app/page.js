@@ -5,7 +5,7 @@ export default function Home() {
   return (
     <div class="grid grid-rows-4 mx-auto grid-flow-col gap-6 px-4">
       {/* Viking Image */}
-      <div className="scale-110 row-span-4  w-[15vw] h-[72vh]">
+      <div className="scale-110 row-span-4  w-[15vw] h-[72vh]  xs:hidden">
         <Image
           fill="true"
           src="/viking.svg"

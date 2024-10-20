@@ -3,9 +3,7 @@ import Image from 'next/image';
 export default function Example() {
     return (
         <div className="flex mx-auto justify-between items-center  p-1">
-
-            <div className='flex gap-[3rem] '>
-                
+                <div className='flex-end '>
                 <button >
                     <Image
                         src="/profile.svg"
@@ -13,11 +11,10 @@ export default function Example() {
                         layout="intrinsic" // Or use layout="fixed"
                         width={91}
                         height={91}
-                        className="object-contain"
+                        className="px-2 object-contain"
                     />
                 </button>
 
-                {/* Score Button with Text Overlay */}
                     <button>
                         <Image
                             src="/score.svg"
@@ -25,7 +22,7 @@ export default function Example() {
                             layout="intrinsic"
                             width={180}
                             height={30}
-                            className="object-contain"
+                            className="gap-2 py-2 object-contain"
                         />
                     </button>
 
@@ -53,7 +50,7 @@ export default function Example() {
                         layout="intrinsic"
                         width={48}
                         height={48}
-                        className="object-contain"
+                        className="px-1 object-contain"
                     />
                 </button>
                 <button >
@@ -63,7 +60,7 @@ export default function Example() {
                         layout="intrinsic"
                         width={48}
                         height={48}
-                        className="object-contain"
+                        className="px-1 object-contain"
                     />
                 </button>
             </div>
