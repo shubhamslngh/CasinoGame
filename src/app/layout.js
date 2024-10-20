@@ -30,7 +30,7 @@ export default function RootLayout({ children }) {
         className={`${geistSans.variable} ${geistMono.variable} antialiased`} // Applying both fonts as CSS variables globally
       >
         {/* Main Layout structure */}
-        <div className="min-h-screen bg-[url('https://s3-alpha-sig.figma.com/img/850e/4153/42a513e4e1c22278a91fcee8c0e476ae?Expires=1730073600&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=owuqroqOobdlQ6qtuDurx4yqUDreCW0ELIGqDIzKyvAaLgrUUyDXh2mWGxxxQ1YU9SwIVxsPQ9HEJC7KhdBGlrERWD9WyQoFAQv5UF~if9yz5ymywbRB-PvFZcDsl5Jv8UazH2jx3q8ThtolX6GzI-jt8HTZd5rSFZPYF2Zsgzfz2~S6GSZHhZokYCNSc1l0t370q5CRJXrHUjtf6oOH8WZTP5s3CeAt9Ezql-N8Yh4Ui~LMRGGfCwNhmQXn4BfT4oZJBNN8kt2vcB-7elPST9bQgOju2~RTuYU2GeWkmx8ppy76bAwtn7M65rkM6O8sETq3SHCF5aWn4IeQsljZBA__')]  xs:bg-cover :bg-contain flex flex-row">
+        <div className="min-h-screen bg-[url('/bg.svg')]  xs:bg-cover :bg-contain flex flex-row">
          
           {/* Main Content Area */}
           <div className="flex space-x-3 flex-col flex-grow">
