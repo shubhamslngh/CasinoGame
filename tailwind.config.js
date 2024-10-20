@@ -8,8 +8,15 @@ module.exports = {
   theme: {
     extend: {
       colors: {
+        'black-rgba': 'rgba(0, 0, 0, 0.6)',
         background: "var(--background)",
         foreground: "var(--foreground)",
+      },
+      boxShadow: {
+        'imprint-bottom': 'inset 0px -1px 6px rgba(0, 0, 0, 0.6)', // Custom box-shadow for bottom imprint effect
+      },
+      borderColor: {
+        'black-rgba': 'rgba(0, 0, 0, 0.6)', // Custom border color
       },
     },
   },

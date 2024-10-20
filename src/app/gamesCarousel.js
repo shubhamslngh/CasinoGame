@@ -50,7 +50,7 @@ const GameCarousel = () => {
                             width={241}
                             height={250}
                             layout="responsive"
-                            className="rounded-lg"
+                            className="rounded-lg transition-transform hover:scale-90"
                         />
                     </SwiperSlide>
                 ))}

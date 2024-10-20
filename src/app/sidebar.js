@@ -29,7 +29,7 @@ export default function Sidebar() {
         >
             <div className="flex flex-col items-center space-y-1">
                 {/* ALL Button */}
-                <div className="flex border-b-1 flex-col items-center space-y-1">
+                <div className="flex border-b-2 border-black-rgba shadow-imprint-bottom flex-col items-center space-y-1">
                     <button onClick={() => handleButtonClick('ALL')}>
                         <Image
                             src="/All.svg"
@@ -58,7 +58,7 @@ export default function Sidebar() {
                 </div>
 
                 {/* FAVORITE Button */}
-                <div className="flex flex-col items-center space-y-1">
+                <div className="flex border-b-2 border-black-rgba shadow-imprint-bottom flex-col items-center space-y-1">
                     <button onClick={() => handleButtonClick('FAVORITE')}>
                         <Image
                             src="/sidebar_heart.svg"
@@ -87,7 +87,7 @@ export default function Sidebar() {
                 </div>
 
                 {/* SLOTS Button */}
-                <div className="flex flex-col items-center space-y-1">
+                <div className="flex border-b-2 border-black-rgba shadow-imprint-bottom flex-col items-center space-y-1">
                     <button onClick={() => handleButtonClick('SLOTS')}>
                         <Image
                             src="/sidebar_slot.svg"
@@ -116,7 +116,7 @@ export default function Sidebar() {
                 </div>
 
                 {/* FISHING Button */}
-                <div className="flex flex-col items-center space-y-1">
+                <div className="flex flex-col border-b-2 border-black-rgba shadow-imprint-bottom items-center space-y-1">
                     <button onClick={() => handleButtonClick('FISHING')}>
                         <Image
                             src="/fishing.svg"
@@ -145,7 +145,7 @@ export default function Sidebar() {
                 </div>
 
                 {/* OTHER Button */}
-                <div className="flex flex-col items-center space-y-1">
+                <div className="flex flex-col border-b-2 border-black-rgba shadow-imprint-bottom items-center space-y-1">
                     <button onClick={() => handleButtonClick('OTHER')}>
                         <Image
                             src="/other.svg"
