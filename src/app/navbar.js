@@ -7,7 +7,7 @@ export default function Example() {
                 <button >
                     <Image
                         src="/profile.svg"
-                        alt="Menu Icon"
+                        alt="profile Icon"
                         layout="intrinsic" // Or use layout="fixed"
                         width={91}
                         height={91}
